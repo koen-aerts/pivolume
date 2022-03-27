@@ -1,0 +1,8 @@
+[Unit]
+Description=Volume Control
+
+[Service]
+ExecStart=/usr/local/bin/volume.py
+
+[Install]
+WantedBy=multi-user.target
