@@ -5,4 +5,4 @@ Description=Volume Control
 ExecStart=/usr/local/bin/volume.py
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=sysinit.target
