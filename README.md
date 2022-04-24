@@ -5,6 +5,8 @@ Control Raspberry Pi volume through GPIO
 # How it works
 This program listens for button presses and then uses the `amixer` tool to change the volume level accordingly.
 
+<img src="pinout_volume.png" width="300">
+
 You may need to experiment with the proper sound levels for your setup. Also if you are using different GPIO pins you have to reflect that in the code. The program adjusts HDMI sound levels but you may need to change for a different sound device.
 
 ```python
