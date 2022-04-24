@@ -35,3 +35,7 @@ sudo cp volume.service /lib/systemd/system/
 sudo systemctl enable volume.service
 sudo systemctl start volume.service
 ```
+
+
+# Reference
+[https://koenaerts.ca/arcade1up-mod/configure-arcade-power-volume-buttons/](https://koenaerts.ca/arcade1up-mod/configure-arcade-power-volume-buttons/)
